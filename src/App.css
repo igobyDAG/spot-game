@@ -1,0 +1,34 @@
+.instructions {
+  display: flex;
+  justify-content: center;
+}
+
+.canvas {
+  display:flex;
+  orientation:portrait;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dot {
+  height: 50px;
+  width: 50px;
+  /* background-color: white; */
+  border-radius: 50%;
+}
+
+.result-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.correct {
+  color: green;
+  font-size: 32px;
+}
+
+.wrong{
+  color: red;
+  font-size: 32px;
+}
